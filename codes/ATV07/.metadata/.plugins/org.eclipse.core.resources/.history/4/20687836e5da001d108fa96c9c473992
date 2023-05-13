@@ -1,0 +1,36 @@
+
+public class Imobiliaria {
+	
+	private Imovel[] imoveis;
+	
+	public Imobiliaria(Imovel[] imoveis);
+////	public double mediaPrecoDeCompra() {
+////	return preco/im;
+////}
+//
+//
+//
+////calcula e retorna a m´edia do pre¸co de compra dos im´oveis;
+//int im = im;
+//public double mediaCompraImoveis() {
+//	
+//}
+////
+////• calcula e retorna a quantidade de casas;
+//int countCasa = 0;
+//int countAp = 0;
+//public int qtdCasa() {
+//	if (r < 0.5) {
+//		return countCasa++;
+//	}
+//	else {
+//		return countAp++;
+//	}
+//}
+////
+////• calcula e retorna a quantidade de apartamentos;
+////
+////• calcula e retorna o im´ovel de maior pre¸co de venda.
+
+
+}

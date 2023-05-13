@@ -1,0 +1,16 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Cachorro cachorro1 = new Cachorro("Bily", 2020, true, true);
+		cachorro1.emiteSom();
+		cachorro1.mostraAtributos();
+		
+		Preguica preguica1 = new Preguica("Belinha", 2000, false, true);
+		preguica1.emiteSom();
+		preguica1.mostraAtributos();
+
+	}
+
+}

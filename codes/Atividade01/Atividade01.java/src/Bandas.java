@@ -1,0 +1,12 @@
+
+public class Bandas {
+
+	String nome;
+	String tipo;
+	int integrantes;
+	double lucro;
+	int shows;
+
+}
+
+

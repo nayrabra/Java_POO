@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Bola> lista = new ArrayList<Bola>();
+		
+		Bola b1 = new Bola("preta", 20.0);
+		lista.add(b1);
+		lista.add(new Bola("verde", 10.0));
+		
+		double p = lista.get(1).getPeso(); //peso da bola da pos 1
+		for (Bola b : lista) {
+			System.out.println(b.getPeso());
+		}
+
+	}
+
+}

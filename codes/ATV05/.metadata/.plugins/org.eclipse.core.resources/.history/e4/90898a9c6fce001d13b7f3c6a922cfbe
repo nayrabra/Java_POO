@@ -1,0 +1,41 @@
+
+public class Turma {
+	private Aluno aluno;
+	private String curso;
+	
+	public Turma(Aluno aluno, String curso) {
+		this.aluno = aluno;
+		this.curso = curso;
+	}
+	//um método para adicionar um aluno na turma; 
+	//um método que retorna o aluno que possui a maior média; 
+	//um método que retorna o aluno mais novo.
+	
+	public void addAluno() {
+		
+	}
+	
+	public void maiorMedia() {
+		
+	}
+	
+	public void imprimirTurma() {
+		aluno.imprimirAluno();
+	}
+	
+	public Aluno getAluno() {
+		return aluno;
+	}
+	
+	public void setAluno(Aluno aluno) {
+		this.aluno = aluno;
+	}
+	public String getCurso() {
+		return curso;
+	}
+	public void setCurso(String curso) {
+		this.curso = curso;
+	}
+	
+	
+}

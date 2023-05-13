@@ -1,0 +1,22 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Agenda agenda = new Agenda();
+
+		Contato contato1 = new Contato("roão", "1234-5678", false);
+		Contato contato2 = new Contato("Maria", "9876-5432", true);
+		Contato contato3 = new Contato("Roberto", "5555-5555", true);
+		Contato contato4 = new Contato("Ricardo", "1111-1111", false);
+
+		agenda.adicionarContato(contato1);
+		agenda.adicionarContato(contato2);
+		agenda.adicionarContato(contato3);
+		agenda.adicionarContato(contato4);
+
+		System.out.println("Tem " +  agenda.contarFavoritos() + " contatos favoritos"); 
+		System.out.println(agenda.contarLetra("r") + " pessoa(s) tem o nome que começa com a letra R"); 
+
+	}
+
+}

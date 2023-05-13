@@ -1,0 +1,21 @@
+
+public class Preguica extends Animal {
+	
+	private boolean seEscala;
+
+	public Preguica(String nome, int ano, boolean ehDomestico, boolean seEscala) {
+		super(nome, ano, ehDomestico);
+		this.seEscala = seEscala;
+	}
+
+	public boolean isSeEscala() {
+		return seEscala;
+	}
+
+	public void setSeEscala(boolean seEscala) {
+		this.seEscala = seEscala;
+	}
+	
+	
+
+}

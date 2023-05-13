@@ -1,0 +1,18 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Pessoa[] vet = new Pessoa[6];
+		
+		vet[0] = new Aluno(23, 5);
+		vet[1] = new Funcionario(48, 10000.00);
+		vet[2] = new Aluno(26, 18);
+		vet[3] = new Funcionario(28, 50000.00);
+		vet[4] = new Aluno(23, 40);
+		vet[5] = new Funcionario(38, 10000.00);
+		
+		
+	}
+
+}

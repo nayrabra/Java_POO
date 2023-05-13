@@ -1,0 +1,1240 @@
+!SESSION 2023-03-09 23:12:42.924 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2023-03-09 23:13:17.682
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-09 23:13:17.682
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70aa58e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@154f8280,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-09 23:13:17.682
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24f90aff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7252bdb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-10 10:53:20.984 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2023-03-10 10:53:28.913
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-10 10:53:28.913
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b5af65b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e0163cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-10 10:53:28.913
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b289535,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74619273,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-12 09:07:44.059 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2023-03-12 09:07:57.243
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 09:07:57.243
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e7d3d87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dd76982,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 09:07:57.243
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e76a66f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72237be8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-03-12 16:31:48.845
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+//import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+	
+		
+	    Imovel i1 = new Imovel(1, "Nayra", 200, true, 2018, 400000);
+	    i1.mostra();
+	    
+	    System.out.println("-------------------------------");
+	    System.out.println("DIGITE AS INFORMAÇÕES DO IMÓVEL");
+	    System.out.println("-------------------------------");
+	    
+		
+//		Imovel imov[] = new Imovel[n];
+		
+//		
+//		for (int i=0; i <imov.length; i++) {
+//			try {
+//				System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//				imov[i].tipo = s.nextInt();
+//				System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//				imov[i].nome = s.nextLine();
+//				imov[i].tamanho = s.nextDouble();
+//				imov[i].ehNobre = s.nextBoolean();
+//				imov[i].ano = s.nextInt();
+//				imov[i].valor = s.nextDouble();
+//				} catch (InputMismatchException ex) {
+//					s.next();
+//				}
+//			
+//			}
+			
+//		int countCasa = 0;
+//		int countApartamento = 0;
+//		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//		if (imov[i].tipo != null) {
+//			
+//		}
+//		for (int i = 0; i <imov.length; i++) {
+//			if (imov[i].tipo == 1) {
+//				countCasa++;
+//			} if (imov[i].tipo == 2) {
+//				countApartamento++;
+//			}
+//		}
+//		imov[countCasa].mostra();
+//		imov[countApartamento].mostra();
+		
+//		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//		for (int i = 0; i < n; i++) {
+//			nome[i] = s.nextLine();
+//		}
+//		
+//		System.out.println("Informe o(s) tamanho(s): ");
+//		for (int i = 0; i < n; i++) {
+//			tamanho[i] = s.nextDouble();
+//		}
+//		
+//		System.out.println("Informe se a localização é nobre) (true para verdade false para falso) ");
+//		for (int i = 0; i < n; i++) {
+//			ehNobre[i] = s.nextBoolean();
+//		}
+//		
+//		System.out.println("Informe o ano de construção: ");
+//		for (int i = 0; i < n; i++) {
+//			ano[i] = s.nextInt();
+//		}
+//		
+//		System.out.println("Informe o valor pago para aquisição: ");
+//		for (int i = 0; i < n; i++) {
+//			valor[i] = s.nextDouble();
+//		}
+		
+	    Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe a quantidade de imóveis que deseja consultar: ");
+		int n = s.nextInt();
+		s.nextLine();
+		System.out.println("Número de imóveis a ser consultado: " + n);
+		
+		int tipo[] = new int[n];
+		String nome[] = new String[n];
+		double tamanho[] = new double[n];
+		boolean ehNobre[] = new boolean[n];
+		int ano[] = new int[n];
+		double valor[] = new double[n];
+		
+		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+		for (int i = 0; i < n; i++) {
+			tipo[i] = s.nextInt();
+			System.out.println(tipo[i]);
+		} 
+		
+		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+		for (int i = 0; i < n; i++) {
+			nome[i] = s.next();
+			System.out.println(nome[i]);
+		}
+		
+		System.out.println("Informe o(s) seu(s) respectivo(s) tamanho(s): ");
+		for (int i = 0; i < n; i++) {
+			tamanho[i] = s.nextDouble();
+			System.out.println(tamanho[i]);
+		}
+		
+		System.out.println("Informe se está ou não em área nobre: ");
+		for (int i = 0; i < n; i++) {
+			ehNobre[i] = s.nextBoolean();
+			System.out.println(ehNobre[i]);
+		}
+		
+		System.out.println("Informe o ano da compra: ");
+		for (int i = 0; i < n; i++) {
+			ano[i] = s.nextInt();
+			System.out.println(ano[i]);
+		}
+		
+		System.out.println("Informe o valor em que foi/foram comprado(s): ");
+		for (int i = 0; i < n; i++) {
+			valor[i] = s.nextDouble();
+			System.out.println(valor[i]);
+		}
+		
+		double calculoIPTU;
+		System.out.println("Valor a pagar de IPTU: ");
+		for (int i = 0; i < valor.length; i++) {
+			if (tipo[i] == 2 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.05;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 2 && tamanho[i] <= 100) {
+				calculoIPTU = valor[i] * 0.02;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 1 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.03;
+				System.out.println("R$ " + calculoIPTU);
+			} else {
+				calculoIPTU = valor[i] * 0.01;
+				System.out.println("R$ " + calculoIPTU);
+			}
+		}
+		
+		double valorVenda;
+		System.out.println("Possível valor a ser vendido: ");
+		for (int i = 0; i < tamanho.length; i++) {
+			if (ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.8;
+				System.out.println("R$ " + valorVenda);
+			} else if (ehNobre[i] && tamanho[i] <= 100) {
+				valorVenda = valor[i] * 1.1;
+				System.out.println("R$ " + valorVenda);
+			} else if (!ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.2;
+				System.out.println("R$ " + valorVenda);
+			} else {
+				valorVenda = valor[i] * 1.05;
+				System.out.println("R$ " + valorVenda);
+			}
+		}
+		
+		
+		int anoAtual = 2023;
+		for (int i = 0; i < ano.length; i++) {
+			anoAtual - an
+		}
+		
+//		String nomeProprietarios;
+//		for (int i = 0; i < nome.length; i++) {
+//			if ()
+//		}
+//		
+		
+		
+			//if (tipo.length == 1) {
+//			System.out.println("casa");
+//		} if (tipo.length == 2) {
+//			System.out.println("apartamento");
+//		} else {
+//			System.out.println("Tipo não encontrado, digite 1 para casa e 2 para apartamento");
+//		}
+	
+	    
+		s.close();
+		
+		System.out.println("--------------");
+	    System.out.println("SITUAÇÃO FINAL");
+	    System.out.println("--------------");
+	    
+	    
+	    
+	    //mostre os IPTUs e os valores de venda dos n imoveis; ok
+	    //mostre os nomes de todos os proprietarios dos imoveis com idade superior a 10 anos;
+	    //mostre a quantidade de apartamentos e de casas cadastradas;
+	    //mostre a media do tamanho dos apartamentos localizados em area nobre;
+	    //mostre o menor IPTU de uma casa cadastrada em uma area que nao seja nobre;
+	    //mostre o tamanho do imovel com menor valor de venda.
+		
+		
+		
+//		public void executar() {
+//			
+//		}
+		
+//		public void chamaMetodoMostra() {
+//			System.out.println(mostra());
+//		}
+		
+//		
+//		//System.out.println("Informe os IPTUs e valores de venda dos imóveis: ");
+//		
+//		System.out.println("Informe o tipo do imóvel (digite 1 para casa e 2 para apartamento): ");
+//		int tipo = s.nextInt();
+//		System.out.println(tipo);
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-03-12 16:31:48.858
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-03-12 16:31:48.859
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-03-12 16:31:49.878
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+//import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+	
+		
+	    Imovel i1 = new Imovel(1, "Nayra", 200, true, 2018, 400000);
+	    i1.mostra();
+	    
+	    System.out.println("-------------------------------");
+	    System.out.println("DIGITE AS INFORMAÇÕES DO IMÓVEL");
+	    System.out.println("-------------------------------");
+	    
+		
+//		Imovel imov[] = new Imovel[n];
+		
+//		
+//		for (int i=0; i <imov.length; i++) {
+//			try {
+//				System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//				imov[i].tipo = s.nextInt();
+//				System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//				imov[i].nome = s.nextLine();
+//				imov[i].tamanho = s.nextDouble();
+//				imov[i].ehNobre = s.nextBoolean();
+//				imov[i].ano = s.nextInt();
+//				imov[i].valor = s.nextDouble();
+//				} catch (InputMismatchException ex) {
+//					s.next();
+//				}
+//			
+//			}
+			
+//		int countCasa = 0;
+//		int countApartamento = 0;
+//		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//		if (imov[i].tipo != null) {
+//			
+//		}
+//		for (int i = 0; i <imov.length; i++) {
+//			if (imov[i].tipo == 1) {
+//				countCasa++;
+//			} if (imov[i].tipo == 2) {
+//				countApartamento++;
+//			}
+//		}
+//		imov[countCasa].mostra();
+//		imov[countApartamento].mostra();
+		
+//		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//		for (int i = 0; i < n; i++) {
+//			nome[i] = s.nextLine();
+//		}
+//		
+//		System.out.println("Informe o(s) tamanho(s): ");
+//		for (int i = 0; i < n; i++) {
+//			tamanho[i] = s.nextDouble();
+//		}
+//		
+//		System.out.println("Informe se a localização é nobre) (true para verdade false para falso) ");
+//		for (int i = 0; i < n; i++) {
+//			ehNobre[i] = s.nextBoolean();
+//		}
+//		
+//		System.out.println("Informe o ano de construção: ");
+//		for (int i = 0; i < n; i++) {
+//			ano[i] = s.nextInt();
+//		}
+//		
+//		System.out.println("Informe o valor pago para aquisição: ");
+//		for (int i = 0; i < n; i++) {
+//			valor[i] = s.nextDouble();
+//		}
+		
+	    Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe a quantidade de imóveis que deseja consultar: ");
+		int n = s.nextInt();
+		s.nextLine();
+		System.out.println("Número de imóveis a ser consultado: " + n);
+		
+		int tipo[] = new int[n];
+		String nome[] = new String[n];
+		double tamanho[] = new double[n];
+		boolean ehNobre[] = new boolean[n];
+		int ano[] = new int[n];
+		double valor[] = new double[n];
+		
+		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+		for (int i = 0; i < n; i++) {
+			tipo[i] = s.nextInt();
+			System.out.println(tipo[i]);
+		} 
+		
+		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+		for (int i = 0; i < n; i++) {
+			nome[i] = s.next();
+			System.out.println(nome[i]);
+		}
+		
+		System.out.println("Informe o(s) seu(s) respectivo(s) tamanho(s): ");
+		for (int i = 0; i < n; i++) {
+			tamanho[i] = s.nextDouble();
+			System.out.println(tamanho[i]);
+		}
+		
+		System.out.println("Informe se está ou não em área nobre: ");
+		for (int i = 0; i < n; i++) {
+			ehNobre[i] = s.nextBoolean();
+			System.out.println(ehNobre[i]);
+		}
+		
+		System.out.println("Informe o ano da compra: ");
+		for (int i = 0; i < n; i++) {
+			ano[i] = s.nextInt();
+			System.out.println(ano[i]);
+		}
+		
+		System.out.println("Informe o valor em que foi/foram comprado(s): ");
+		for (int i = 0; i < n; i++) {
+			valor[i] = s.nextDouble();
+			System.out.println(valor[i]);
+		}
+		
+		double calculoIPTU;
+		System.out.println("Valor a pagar de IPTU: ");
+		for (int i = 0; i < valor.length; i++) {
+			if (tipo[i] == 2 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.05;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 2 && tamanho[i] <= 100) {
+				calculoIPTU = valor[i] * 0.02;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 1 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.03;
+				System.out.println("R$ " + calculoIPTU);
+			} else {
+				calculoIPTU = valor[i] * 0.01;
+				System.out.println("R$ " + calculoIPTU);
+			}
+		}
+		
+		double valorVenda;
+		System.out.println("Possível valor a ser vendido: ");
+		for (int i = 0; i < tamanho.length; i++) {
+			if (ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.8;
+				System.out.println("R$ " + valorVenda);
+			} else if (ehNobre[i] && tamanho[i] <= 100) {
+				valorVenda = valor[i] * 1.1;
+				System.out.println("R$ " + valorVenda);
+			} else if (!ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.2;
+				System.out.println("R$ " + valorVenda);
+			} else {
+				valorVenda = valor[i] * 1.05;
+				System.out.println("R$ " + valorVenda);
+			}
+		}
+		
+		
+		int anoAtual = 2023;
+		for (int i = 0; i < ano.length; i++) {
+			anoAtual - ano
+		}
+		
+//		String nomeProprietarios;
+//		for (int i = 0; i < nome.length; i++) {
+//			if ()
+//		}
+//		
+		
+		
+			//if (tipo.length == 1) {
+//			System.out.println("casa");
+//		} if (tipo.length == 2) {
+//			System.out.println("apartamento");
+//		} else {
+//			System.out.println("Tipo não encontrado, digite 1 para casa e 2 para apartamento");
+//		}
+	
+	    
+		s.close();
+		
+		System.out.println("--------------");
+	    System.out.println("SITUAÇÃO FINAL");
+	    System.out.println("--------------");
+	    
+	    
+	    
+	    //mostre os IPTUs e os valores de venda dos n imoveis; ok
+	    //mostre os nomes de todos os proprietarios dos imoveis com idade superior a 10 anos;
+	    //mostre a quantidade de apartamentos e de casas cadastradas;
+	    //mostre a media do tamanho dos apartamentos localizados em area nobre;
+	    //mostre o menor IPTU de uma casa cadastrada em uma area que nao seja nobre;
+	    //mostre o tamanho do imovel com menor valor de venda.
+		
+		
+		
+//		public void executar() {
+//			
+//		}
+		
+//		public void chamaMetodoMostra() {
+//			System.out.println(mostra());
+//		}
+		
+//		
+//		//System.out.println("Informe os IPTUs e valores de venda dos imóveis: ");
+//		
+//		System.out.println("Informe o tipo do imóvel (digite 1 para casa e 2 para apartamento): ");
+//		int tipo = s.nextInt();
+//		System.out.println(tipo);
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2023-03-12 16:31:49.881
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2023-03-12 16:31:49.881
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:521)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2023-03-12 16:31:51.571
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+//import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+	
+		
+	    Imovel i1 = new Imovel(1, "Nayra", 200, true, 2018, 400000);
+	    i1.mostra();
+	    
+	    System.out.println("-------------------------------");
+	    System.out.println("DIGITE AS INFORMAÇÕES DO IMÓVEL");
+	    System.out.println("-------------------------------");
+	    
+		
+//		Imovel imov[] = new Imovel[n];
+		
+//		
+//		for (int i=0; i <imov.length; i++) {
+//			try {
+//				System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//				imov[i].tipo = s.nextInt();
+//				System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//				imov[i].nome = s.nextLine();
+//				imov[i].tamanho = s.nextDouble();
+//				imov[i].ehNobre = s.nextBoolean();
+//				imov[i].ano = s.nextInt();
+//				imov[i].valor = s.nextDouble();
+//				} catch (InputMismatchException ex) {
+//					s.next();
+//				}
+//			
+//			}
+			
+//		int countCasa = 0;
+//		int countApartamento = 0;
+//		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+//		if (imov[i].tipo != null) {
+//			
+//		}
+//		for (int i = 0; i <imov.length; i++) {
+//			if (imov[i].tipo == 1) {
+//				countCasa++;
+//			} if (imov[i].tipo == 2) {
+//				countApartamento++;
+//			}
+//		}
+//		imov[countCasa].mostra();
+//		imov[countApartamento].mostra();
+		
+//		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+//		for (int i = 0; i < n; i++) {
+//			nome[i] = s.nextLine();
+//		}
+//		
+//		System.out.println("Informe o(s) tamanho(s): ");
+//		for (int i = 0; i < n; i++) {
+//			tamanho[i] = s.nextDouble();
+//		}
+//		
+//		System.out.println("Informe se a localização é nobre) (true para verdade false para falso) ");
+//		for (int i = 0; i < n; i++) {
+//			ehNobre[i] = s.nextBoolean();
+//		}
+//		
+//		System.out.println("Informe o ano de construção: ");
+//		for (int i = 0; i < n; i++) {
+//			ano[i] = s.nextInt();
+//		}
+//		
+//		System.out.println("Informe o valor pago para aquisição: ");
+//		for (int i = 0; i < n; i++) {
+//			valor[i] = s.nextDouble();
+//		}
+		
+	    Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe a quantidade de imóveis que deseja consultar: ");
+		int n = s.nextInt();
+		s.nextLine();
+		System.out.println("Número de imóveis a ser consultado: " + n);
+		
+		int tipo[] = new int[n];
+		String nome[] = new String[n];
+		double tamanho[] = new double[n];
+		boolean ehNobre[] = new boolean[n];
+		int ano[] = new int[n];
+		double valor[] = new double[n];
+		
+		System.out.println("Informe se é casa (digite 1) ou apartamento (digite 2): ");
+		for (int i = 0; i < n; i++) {
+			tipo[i] = s.nextInt();
+			System.out.println(tipo[i]);
+		} 
+		
+		System.out.println("Informe o(s) nome(s) do(s) proprietário(s): ");
+		for (int i = 0; i < n; i++) {
+			nome[i] = s.next();
+			System.out.println(nome[i]);
+		}
+		
+		System.out.println("Informe o(s) seu(s) respectivo(s) tamanho(s): ");
+		for (int i = 0; i < n; i++) {
+			tamanho[i] = s.nextDouble();
+			System.out.println(tamanho[i]);
+		}
+		
+		System.out.println("Informe se está ou não em área nobre: ");
+		for (int i = 0; i < n; i++) {
+			ehNobre[i] = s.nextBoolean();
+			System.out.println(ehNobre[i]);
+		}
+		
+		System.out.println("Informe o ano da compra: ");
+		for (int i = 0; i < n; i++) {
+			ano[i] = s.nextInt();
+			System.out.println(ano[i]);
+		}
+		
+		System.out.println("Informe o valor em que foi/foram comprado(s): ");
+		for (int i = 0; i < n; i++) {
+			valor[i] = s.nextDouble();
+			System.out.println(valor[i]);
+		}
+		
+		double calculoIPTU;
+		System.out.println("Valor a pagar de IPTU: ");
+		for (int i = 0; i < valor.length; i++) {
+			if (tipo[i] == 2 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.05;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 2 && tamanho[i] <= 100) {
+				calculoIPTU = valor[i] * 0.02;
+				System.out.println("R$ " + calculoIPTU);
+			} else if (tipo[i] == 1 && tamanho[i] > 100) {
+				calculoIPTU = valor[i] * 0.03;
+				System.out.println("R$ " + calculoIPTU);
+			} else {
+				calculoIPTU = valor[i] * 0.01;
+				System.out.println("R$ " + calculoIPTU);
+			}
+		}
+		
+		double valorVenda;
+		System.out.println("Possível valor a ser vendido: ");
+		for (int i = 0; i < tamanho.length; i++) {
+			if (ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.8;
+				System.out.println("R$ " + valorVenda);
+			} else if (ehNobre[i] && tamanho[i] <= 100) {
+				valorVenda = valor[i] * 1.1;
+				System.out.println("R$ " + valorVenda);
+			} else if (!ehNobre[i] && tamanho[i] > 100) {
+				valorVenda = valor[i] * 1.2;
+				System.out.println("R$ " + valorVenda);
+			} else {
+				valorVenda = valor[i] * 1.05;
+				System.out.println("R$ " + valorVenda);
+			}
+		}
+		
+		
+		int anoAtual = 2023;
+		for (int i = 0; i < ano.length; i++) {
+			anoAtual - ano
+		}
+		
+//		String nomeProprietarios;
+//		for (int i = 0; i < nome.length; i++) {
+//			if ()
+//		}
+//		
+		
+		
+			//if (tipo.length == 1) {
+//			System.out.println("casa");
+//		} if (tipo.length == 2) {
+//			System.out.println("apartamento");
+//		} else {
+//			System.out.println("Tipo não encontrado, digite 1 para casa e 2 para apartamento");
+//		}
+	
+	    
+		s.close();
+		
+		System.out.println("--------------");
+	    System.out.println("SITUAÇÃO FINAL");
+	    System.out.println("--------------");
+	    
+	    
+	    
+	    //mostre os IPTUs e os valores de venda dos n imoveis; ok
+	    //mostre os nomes de todos os proprietarios dos imoveis com idade superior a 10 anos;
+	    //mostre a quantidade de apartamentos e de casas cadastradas;
+	    //mostre a media do tamanho dos apartamentos localizados em area nobre;
+	    //mostre o menor IPTU de uma casa cadastrada em uma area que nao seja nobre;
+	    //mostre o tamanho do imovel com menor valor de venda.
+		
+		
+		
+//		public void executar() {
+//			
+//		}
+		
+//		public void chamaMetodoMostra() {
+//			System.out.println(mostra());
+//		}
+		
+//		
+//		//System.out.println("Informe os IPTUs e valores de venda dos imóveis: ");
+//		
+//		System.out.println("Informe o tipo do imóvel (digite 1 para casa e 2 para apartamento): ");
+//		int tipo = s.nextInt();
+//		System.out.println(tipo);
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2023-03-12 16:31:51.574
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2023-03-12 16:31:51.575
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2220)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3034)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.ui 4 120 2023-03-12 19:08:01.530
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:809)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:172)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:169)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:259)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-03-12 19:08:01.895
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:281)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SESSION 2023-03-12 19:08:07.330 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2023-03-12 19:08:35.067
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 19:08:35.067
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a41caed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b4fd7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-12 19:08:35.067
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7404aff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12723c5d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2023-03-13 13:59:36.029 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/nayrabraga/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2023-03-13 13:59:45.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 13:59:45.208
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a41caed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b4fd7d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-03-13 13:59:45.208
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7404aff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12723c5d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> lista = new ArrayList<Integer>(); 
+		
+		lista.add(10); // [0]
+		lista.add(5); // [1]
+		lista.add(8);
+		lista.add(100);
+		lista.add(15);
+		lista.add(100);
+		
+		int t = lista.size(); //size = length = tamanho do vetor
+		
+		System.out.println(lista);
+		System.out.println(t);
+
+	}
+
+}

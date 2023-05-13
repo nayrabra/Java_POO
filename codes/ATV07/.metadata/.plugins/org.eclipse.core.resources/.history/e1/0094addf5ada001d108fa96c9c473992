@@ -1,0 +1,19 @@
+
+public class Imovel {
+
+	public static void main(String[] args) {
+		
+		private double area;
+		private int qtdQuartos;
+		private double preco;
+		
+		public Imovel(double area, int qtdQuartos, double preco) {
+			this. area = area;
+			this.qtdQuartos = qtdQuartos;
+			this.preco = preco;
+		}
+		
+		
+	}
+
+}

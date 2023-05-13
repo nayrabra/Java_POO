@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+
+ class Agenda {
+	private ArrayList <Contato> contatos;
+
+	public Agenda() {
+		this.contatos = new ArrayList <Contato>();
+	}
+
+	public void adicionarContato (Contato contato) {
+		this.contatos.add(contato);
+	}
+	
+	public int ehFavorito() {
+		int count = 0;
+		for (Contato contato : contatos) {
+			if (contato.isFavorito()) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int contarLetra(String letra) {
+		int count = 0;
+		for (Contato contato : contatos) {
+			if (contato.getNome().toLowerCase().startsWith(letra.toLowerCase()));
+			count++;
+		}
+		return count;
+	}
+	
+	
+}
+
+

@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+import FormasGeograficas.Quadrados;
+import FormasGeograficas.Retangulos;
+import FormasGeograficas.Circulo;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		//quadrado
+		System.out.println("Informe o tamanho do lado do quadrado:");
+		double tamanhoLado = sc.nextDouble();
+		Quadrados quadrado1 = new Quadrados (tamanhoLado);
+		
+		//retangulo
+		System.out.println("Informe o tamanho da base do retangulo:");
+		double tamanhoBase = sc.nextDouble();
+		System.out.println("Informe o tamanho da altura do retangulo:");
+		double tamanhoAltura = sc.nextDouble();
+		Retangulos retangulo1 = new Retangulos (tamanhoBase, tamanhoAltura);
+		
+		//circulo
+		System.out.println("Informe o tamnho do raio do circulo:");
+		double tamanhoRaio = sc.nextDouble();
+		Circulo circulo1 = new Circulo (tamanhoRaio);
+		
+		sc.close();
+		
+		System.out.println("Quadrado com lado: " + tamanhoLado +
+				"\nPerimetro do Quadrado: " + quadrado1.calculaPerimetro() +
+				"\nArea do Quadrado: " + quadrado1.calculaArea());
+		
+		System.out.println("Retangulo com base: " + tamanhoBase + " e altura: " + tamanhoAltura +
+				"\nPerimetro do Retangulo: " + retangulo1.calculaPerimetro() + 
+				"\nArea do Retangulo: " + retangulo1.calculaArea());
+		
+		System.out.println("Circulo com raio: " + tamanhoRaio +
+				"\nPerimetro do Circulo: " + circulo1.calculaPerimetro() +
+				"\nArea do Circulo: " + circulo1.calculaArea());
+
+	}
+
+}

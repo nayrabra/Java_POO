@@ -1,0 +1,16 @@
+
+public class Presidente extends Funcionario {
+	private int nAcoes;
+	public Presidente(String nome, String cpf, double salario, int nAcoes) {
+		super(nome, cpf, salario); //super vem de super classe, que nesse caso é o funcionario
+		this.nAcoes = nAcoes;
+	}
+	public int getnAcoes() {
+		return nAcoes;
+	}
+	public void setnAcoes(int nAcoes) {
+		this.nAcoes = nAcoes;
+	}
+	
+	
+}

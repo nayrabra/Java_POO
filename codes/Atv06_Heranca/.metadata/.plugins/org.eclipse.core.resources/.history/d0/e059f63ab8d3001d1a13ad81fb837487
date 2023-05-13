@@ -1,0 +1,22 @@
+
+public class Cachorro extends Animal {
+	
+	private boolean seCorre;
+	
+	public Cachorro (String nome, int ano, boolean ehDomestico, boolean seCorre) {
+		super(nome, ano, ehDomestico);
+		this.seCorre = seCorre;
+	}
+
+	public boolean isSeCorre() {
+		return seCorre;
+	}
+
+	public void setSeCorre(boolean seCorre) {
+		this.seCorre = seCorre;
+	}
+	
+	
+	
+
+}

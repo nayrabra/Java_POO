@@ -1,0 +1,33 @@
+
+public class Circulo implements FormaGeografica{
+	
+	private double raio;
+
+	public Circulo(double raio) {
+		super();
+		this.raio = raio;
+	}
+
+	public double getRaio() {
+		return raio;
+	}
+
+	public void setRaio(double raio) {
+		this.raio = raio;
+	}
+	
+	double pi = 3.1416;
+
+	@Override
+	public double calculaPerimetro() {
+		double perimetroCirculo = 2 * pi * raio;
+		return perimetroCirculo;
+	}
+
+	@Override
+	public double calculaArea() {
+		double areaCirculo = pi * raio * raio;
+		return areaCirculo;
+	}
+	
+}

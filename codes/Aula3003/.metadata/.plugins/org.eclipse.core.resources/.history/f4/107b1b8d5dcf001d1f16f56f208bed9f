@@ -1,0 +1,17 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Funcionario f1 = new Funcionario("Maria", "4534543", 2500);
+		double bonus1 = f1.calculaBonus();
+		f1.mostraFuncionario();
+		System.out.println(bonus1);
+		
+		Presidente p1 = new Presidente("Joao", "778478", 30000, 2);
+		double bonus2 = p1.calculaBonus();
+		System.out.println();
+		System.out.println(bonus2);
+
+	}
+
+}

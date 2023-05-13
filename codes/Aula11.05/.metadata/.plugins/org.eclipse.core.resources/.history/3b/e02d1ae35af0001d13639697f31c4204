@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> lista = new ArrayList<Integer>(); 
+		
+		int t = lista.size(); //size = length = tamanho do vetor
+		System.out.println(t);
+
+	}
+
+}

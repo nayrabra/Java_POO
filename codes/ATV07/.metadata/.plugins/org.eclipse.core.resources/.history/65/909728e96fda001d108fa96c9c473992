@@ -1,0 +1,58 @@
+//abstract na classe nao pode instanciar um objeto desse tipo na principal: new()
+public abstract class Imovel {
+
+		protected double area;
+		protected int qtdQuartos;
+		protected double preco;
+		
+		public Imovel (double area, int qtdQuartos, double preco) {
+			this.area = area;
+			this.qtdQuartos = qtdQuartos;
+			this.preco = preco;
+		}
+
+		public double getArea() {
+			return area;
+		}
+
+		public void setArea(double area) {
+			this.area = area;
+		}
+
+		public int getQtdQuartos() {
+			return qtdQuartos;
+		}
+
+		public void setQtdQuartos(int qtdQuartos) {
+			this.qtdQuartos = qtdQuartos;
+		}
+
+		public double getPreco() {
+			return preco;
+		}
+
+		public void setPreco(double preco) {
+			this.preco = preco;
+		}
+		
+		//abstract no metodo = toda classe filha dessa classe mae devera obrigatoriamente fornecer
+		//uma implementacao p esse metodo
+		public abstract double calculaPrecoVenda();
+		
+		
+//		public double mediaPrecoDeCompra() {
+//			return preco/im;
+//		}
+		
+		
+		
+		//calcula e retorna a m´edia do pre¸co de compra dos im´oveis;
+//
+//• calcula e retorna a quantidade de casas;
+//
+//• calcula e retorna a quantidade de apartamentos;
+//
+//• calcula e retorna o im´ovel de maior pre¸co de venda.
+		
+
+}

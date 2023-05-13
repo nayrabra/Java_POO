@@ -1,0 +1,38 @@
+
+public class Principal {
+    public static void main(String[] args) {
+        Turma turma = new Turma("Ciência da Computação");
+        
+        Aluno aluno1 = new Aluno("João", 1998, 8.5);
+        Aluno aluno2 = new Aluno("Maria", 1999, 7.5);
+        Aluno aluno3 = new Aluno("Pedro", 1997, 9.0);
+        
+        turma.adicionarAluno(aluno1);
+        turma.adicionarAluno(aluno2);
+        turma.adicionarAluno(aluno3);
+        
+        System.out.println("Turma do curso: " + turma.getCurso());
+        System.out.println("Aluno com a maior média é:");
+        turma.alunoComMaiorMedia().imprimir();
+        
+        System.out.println("Aluno mais novo:");
+        turma.alunoMaisNovo().imprimir();
+        
+        Turma turma2 = new Turma("Análise e Desenvolvimento de Sistemas");
+        
+        Aluno aluno4 = new Aluno("Vagner", 2004, 9.5);
+        Aluno aluno5 = new Aluno("Vagner", 2003, 8.5);
+        Aluno aluno6 = new Aluno("Vagner", 2002, 5.5);
+        
+        turma2.adicionarAluno(aluno4);
+        turma2.adicionarAluno(aluno5);
+        turma2.adicionarAluno(aluno6);
+        
+        System.out.println("Turma do curso: " + turma2.getCurso());
+        System.out.println("Aluno com a maior média é:");
+        turma2.alunoComMaiorMedia().imprimir();
+        
+        System.out.println("Aluno mais novo é:");
+        turma2.alunoMaisNovo().imprimir();
+    }
+}

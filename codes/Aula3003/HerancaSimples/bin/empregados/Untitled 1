@@ -1,0 +1,5 @@
+extends implementa herança no Java
+
+o package serve para que os atributos só sejam acessados nas classes que estao lá, com protected por exemplo
+
+protected serve que para atributos da classe mae sejam enxergados na classe filha

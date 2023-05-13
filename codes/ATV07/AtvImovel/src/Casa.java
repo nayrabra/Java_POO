@@ -1,0 +1,29 @@
+
+public class Casa extends Imovel {
+	
+	private boolean quintal;
+	
+	public Casa(double area, int qtdQuartos, double preco, boolean quintal) {
+		super(area, qtdQuartos, preco);
+		this.quintal = quintal;
+	}
+
+	public boolean isQuintal() {
+		return quintal;
+	}
+
+	public void setQuintal(boolean quintal) {
+		this.quintal = quintal;
+	}
+
+	@Override
+	public double calculaPrecoVenda() {
+		if (qtdQuartos > 4 || quintal == true) {
+			return 1.3 * preco;
+		}
+		else {
+			return 1.15 * preco;
+		}
+	}
+	
+}

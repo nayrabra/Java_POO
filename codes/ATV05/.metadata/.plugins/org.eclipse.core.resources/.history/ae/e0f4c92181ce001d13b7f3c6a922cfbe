@@ -1,0 +1,20 @@
+
+public class Principal {
+    public static void main(String[] args) {
+        Turma turma = new Turma("Ciência da Computação");
+        
+        Aluno aluno1 = new Aluno("João", 1998, 8.5);
+        Aluno aluno2 = new Aluno("Maria", 1999, 7.5);
+        Aluno aluno3 = new Aluno("Pedro", 1997, 9.0);
+        
+        turma.adicionarAluno(aluno1);
+        turma.adicionarAluno(aluno2);
+        turma.adicionarAluno(aluno3);
+        
+        System.out.println("Aluno com a maior média:");
+        turma.alunoComMaiorMedia().imprimir();
+        
+        System.out.println("Aluno mais novo:");
+        turma.alunoMaisNovo().imprimir();
+    }
+}

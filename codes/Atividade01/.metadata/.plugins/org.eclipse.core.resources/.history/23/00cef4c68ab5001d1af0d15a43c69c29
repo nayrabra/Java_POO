@@ -1,0 +1,169 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade de banda(s) que você deseja inserir: ");
+		int n = s.nextInt();
+		s.nextLine();
+		System.out.println(n);
+
+		String nome[] = new String[n];
+		String tipo[] = new String[n];
+		int integrantes[] = new int[n];
+		double lucro[] = new double[n];
+		int shows[] = new int[n];
+
+		System.out.println("Informe o(s) nome(s) da(s) banda(s): ");
+		for (int i = 0; i < n; i++) {
+			nome[i] = s.nextLine();
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.print(nome[i] + ", ");
+		}
+		System.out.println();
+
+		System.out.println("Informe o(s) estilo(s) musical(is): ");
+		for (int i = 0; i < n; i++) {
+			tipo[i] = s.nextLine();
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.println(tipo[i] + " ");
+		}
+		System.out.println();
+
+		System.out.println("Informe o número de integrantes de cada banda: ");
+		for (int i = 0; i < n; i++) {
+			integrantes[i] = s.nextInt();
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.println(integrantes[i] + " ");
+		}
+		System.out.println();
+
+		System.out.println("Informe o lucro obtido na última turnê de cada banda: ");
+		for (int i = 0; i < n; i++) {
+			lucro[i] = s.nextDouble();
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.println("R$" + lucro[i] + " ");
+		}
+		System.out.println();
+
+		System.out.println("Informe a quantidade de shows na última turnê de cada banda: ");
+		for (int i = 0; i < n; i++) {
+			shows[i] = s.nextInt();
+		}
+		for (int i = 0; i < n; i++) {
+			System.out.println(shows[i] + " ");
+		}
+		System.out.println();
+
+		System.out.println("Quantidade de bandas que tem exatamente cinco integrantes: "); //ok!
+		int contador = 0; 
+		for(int i = 0; i < integrantes.length; i++) {
+			if(integrantes[i] == 5) {
+				contador++;
+			}
+		}
+		System.out.println(contador + " banda(s)"); 
+		System.out.println();
+
+		int count = 0;
+		System.out.println("Quantidade de bandas do tipo Indie: "); //erro
+		for(int i = 0; i < tipo.length; i++) {
+			if(tipo[i] == "indie") {
+				count++;
+			}
+		}
+		System.out.println(count + " banda(s)"); 
+		System.out.println();
+
+		System.out.println("O maior lucro obtido por uma banda foi de: "); //ok!
+		double maiorLucro = lucro[0];
+		for(int i = 0; i < lucro.length; i++) {
+			if (lucro[i] > maiorLucro) {
+				maiorLucro = lucro[i];
+			}
+		}
+		System.out.println(maiorLucro + " reais");
+		System.out.println();
+
+		System.out.println("O menor lucro obtido por uma banda foi de: "); //ok!
+		double menorLucro = lucro[0];
+		for(int i = 0; i < lucro.length; i++) {
+			if (lucro[i] < menorLucro) {
+				menorLucro = lucro[i];
+			}
+		}
+		System.out.println(menorLucro + " reais");
+		System.out.println();
+
+		String [] nomeBanda = Arrays.copyOf(nome, nome.length);
+		boolean temUmIntegrante = false;
+		int count2 = 0;
+		String converterEmNome;
+		System.out.println("A banda, que contém um único integrante e que obteve o maior lucro: "); //erro
+		for (int i = 0; i < integrantes.length; i++) {
+			if (integrantes[i] == 1) {
+				System.out.println("Digite um valor para a posição "+ i);
+				temUmIntegrante = true;
+				count2++;
+			} 
+		}
+		if (temUmIntegrante) { 
+			System.out.println("Tem apenas " + count2+ " bandas");
+		} else {
+			System.out.println("Não tem nenhuma");
+		}
+
+		System.out.println();
+
+		System.out.println("A banda que fez menos shows: "); //erro
+		int menosShows = 0;
+		for(int i = 0; i < shows.length; i++) {
+			if(shows[i] < menosShows) {
+				menosShows = shows[i];
+			}
+		}
+		//vincular o indice de menos shows com o nome da banda do mesmo indice
+		System.out.println(menosShows);
+		System.out.println();
+
+		System.out.println("A soma dos integrantes de todas as bandas: "); //ok!
+		int soma = 0;
+		for (int i = 0; i < integrantes.length; i++) {
+			soma += integrantes[i];
+		}
+		System.out.println(soma + " integrantes");
+		System.out.println();
+
+		int contador2 = 0;
+		System.out.println("A quantidade de bandas que possuem mais de um integrante e ﬁzeram mais que 33 shows: "); //erro
+		for (int i = 0; i < integrantes.length; i++) {
+			for(int j = 0; j < shows.length; j++) {
+				if (integrantes[i] > 1 && shows[j] > 33) {
+					contador2++;
+				}
+			}
+		} 
+		System.out.println(contador2 + " banda(s)");
+		System.out.println();
+
+
+		double soma2 = 0;
+		System.out.println("A média do lucro total foi de: "); //ok!!
+		for(int i = 0; i < lucro.length; i++) {
+			soma2 += lucro[i];
+		}
+		double mediaLucro = soma2/lucro.length;
+		System.out.println(mediaLucro);
+
+	}
+
+
+}

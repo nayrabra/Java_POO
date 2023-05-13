@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/nayrabraga/Desktop/adsS2/POO/AV3/Aula11.05/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+692480061.index
+2429277501.index

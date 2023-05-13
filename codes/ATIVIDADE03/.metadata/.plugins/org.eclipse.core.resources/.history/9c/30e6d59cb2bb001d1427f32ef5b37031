@@ -1,0 +1,133 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Andar atual: ");
+		int andarAtual = s.nextInt();
+		System.out.println(andarAtual);
+
+		System.out.println("Total de andares: ");
+		int totalDeAndares = s.nextInt();
+		System.out.println(totalDeAndares);
+
+		System.out.println("Capacidade máxima de pessoas: ");
+		int capacidadeMaxima = s.nextInt();
+		System.out.println(capacidadeMaxima);
+
+		System.out.println("Total de pessoas presentes: ");
+		int pessoasPresentes = s.nextInt();
+		System.out.println(pessoasPresentes);
+
+//		//entra
+//		if (pessoasPresentes < 0) {
+//			System.out.println("Não existe pessoas com número negativo, não entra ninguém.");
+//		} else if (capacidadeMaxima < 1) {
+//			System.out.println("Não existe capacidade com número negativo, não entra ninguém.");
+//		} else if (pessoasPresentes >= 0 && capacidadeMaxima >= 1 && pessoasPresentes < capacidadeMaxima) {
+//			pessoasPresentes++;
+//			System.out.println("Se entrar uma pessoa, fica com " + pessoasPresentes + " pessoas.");
+//		} else if (pessoasPresentes > capacidadeMaxima) {
+//			System.out.println("Capacidade ultrapassada, não pode entrar mais ninguém.");
+//		}
+//
+//		//sai
+//		if (pessoasPresentes == 1) {
+//			pessoasPresentes--; 
+//		} else if (capacidadeMaxima < 1) {
+//			System.out.println("Não existe capacidade com número negativo, não entra ninguém.");
+//		} else if (pessoasPresentes > 0) {
+//			pessoasPresentes -= 2;
+//			System.out.println("Se sair uma pessoa, fica com " + pessoasPresentes + " pessoas."); //nao esta subtraindo
+//		} else if (pessoasPresentes < 0) {
+//			System.out.println("Não existe pessoas com número negativo, não sai ninguém.");
+//		} 
+//
+//		//sobe
+//
+//		if (andarAtual < totalDeAndares) {
+//			andarAtual++;
+//			System.out.println("Se subir um andar, fica no " + andarAtual + "° andar.");
+//		} else if (andarAtual > totalDeAndares) {
+//			System.out.println("Erro. Andar atual maior que a quantidade de andares existentes no prédio.");
+//		} else if (andarAtual < 0 || totalDeAndares < 0) {
+//			System.out.println("Andar não existe, não sobe ninguém.");
+//		} 
+//
+//
+//		//desce
+//		if (andarAtual == 1) {
+//			andarAtual--;
+//		} else if (andarAtual > totalDeAndares) {
+//			System.out.println("Erro. Andar atual maior que a quantidade de andares existentes no prédio.");
+//		} else if (andarAtual > 0) {
+//			andarAtual -= 2;
+//			System.out.println("Se descer um andar, fica no " + andarAtual + "° andar.");
+//		} else if (andarAtual < 0) {
+//			System.out.println("Andar não existe, não desce ninguém.");
+//		}
+//		
+		Elevador a = new Elevador(23, 12);
+		Elevador b = new Elevador(15, 8);
+		
+		a.setCapacidadeMaxima(18);
+		a.setTotalDeAndares(10);
+		a.setAndarAtual(8);
+		a.setPessoasPresentes(14);
+		int capacidadeMaximaDoElevador = a.getCapacidadeMaxima();
+		int totalDeAndaresDoElevador = a.getTotalDeAndares();
+		int andarAtualDoElevador = a.getAndarAtual();
+		int pessoasPresentesDoElevador = a.getPessoasPresentes();
+		int entraPessoasNoElevador = a.getEntraPessoas();
+		int saiPessoasDoElevador = a.getSaiPessoas();
+		int sobeElevador = a.getSobeAndar();
+		int desceElevador = a.getDesceAndar();
+		
+		int capacidadeMaximaDoElevador2 = b.getCapacidadeMaxima();
+		int totalDeAndaresDoElevador2 = b.getTotalDeAndares();
+		int andarAtualDoElevador2 = b.getAndarAtual();
+		int pessoasPresentesDoElevador2 = b.getPessoasPresentes();
+		int entraPessoasNoElevador2 = b.getEntraPessoas();
+		int saiPessoasDoElevador2 = b.getSaiPessoas();
+		int sobeElevador2 = b.getSobeAndar();
+		int desceElevador2 = b.getDesceAndar();
+//		if (pessoasPresentes < 0) {
+//			System.out.println("Não existe pessoas com número negativo, não entra ninguém.");
+//		} else if (capacidadeMaxima < 1) {
+//			System.out.println("Não existe capacidade com número negativo, não entra ninguém.");
+//		} else if (pessoasPresentes >= 0 && capacidadeMaxima >= 1 && pessoasPresentes < capacidadeMaxima) {
+//			int entraPessoas;
+//			System.out.println("Se entrar uma pessoa, fica com " + pessoasPresentes + " pessoas.");
+//		} else if (pessoasPresentes > capacidadeMaxima) {
+//			System.out.println("Capacidade ultrapassada, não pode entrar mais ninguém.");
+//		}
+		
+		System.out.println("Capacidade de: " + capacidadeMaximaDoElevador + " pessoas no elevador.");
+		System.out.println("Dentro do elevador: " + pessoasPresentesDoElevador + " pessoas.");
+		System.out.println("Total de: " + totalDeAndaresDoElevador + " andares.");
+		System.out.println("Andar atual: " + andarAtualDoElevador + "˚ andar.");
+		System.out.println("Entra uma pessoa " + entraPessoasNoElevador);
+		System.out.println("Sai uma pessa " + saiPessoasDoElevador);
+		System.out.println("Sobe um andar " + sobeElevador);
+		System.out.println("Desce um andar " + desceElevador);
+		
+		System.out.println("Capacidade de: " + capacidadeMaximaDoElevador2 + " pessoas no elevador.");
+		System.out.println("Dentro do elevador: " + pessoasPresentesDoElevador2 + " pessoas.");
+		System.out.println("Total de: " + totalDeAndaresDoElevador2 + " andares.");
+		System.out.println("Andar atual: " + andarAtualDoElevador2 + "˚ andar.");
+		System.out.println("Entra uma pessoa " + entraPessoasNoElevador2);
+		System.out.println("Sai uma pessa " + saiPessoasDoElevador2);
+		System.out.println("Sobe um andar " + sobeElevador2);
+		System.out.println("Desce um andar " + desceElevador2);
+		//		void mostra {
+		//			System.out.println("Uma pessoa entrou, ficou então com " + pessoasPresentes + " pessoas."); //entra
+		//			System.out.println("Uma pessoa saiu, restou agora " + pessoasPresentes + " pessoas."); //sai
+		//			System.out.println("Subiu um andar, agora está no andar de número " + andarAtual); //sobe
+		//			System.out.println("Descendo um andar, fica no andar de número " + andarAtual); //desce
+		//		}
+	}
+
+}

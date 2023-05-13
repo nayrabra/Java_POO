@@ -1,0 +1,34 @@
+
+public class ProdutosLoja {
+	
+	protected String nome;
+	protected double preco;
+	
+	public ProdutosLoja(String nome, double preco) {
+		this.nome = nome;
+		this.preco = preco;
+	}
+	
+	public void mostra() {
+		System.out.println("Nome: " + nome + "\nPreco: " + preco);
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	
+	
+	
+}

@@ -1,0 +1,56 @@
+
+public class Imobiliaria {
+	
+	private Imovel[] imoveis;
+	
+	public Imobiliaria(Imovel[] imoveis) {
+		this.imoveis = imoveis;
+	}
+	
+	public double mediaPrecoCompra() {
+		double soma = 0;
+		for (Imovel imovel: imoveis) {
+			soma += imovel.getPreco();
+		}
+		return soma/imoveis.length;
+	}
+	
+	//instanceof = permite testar se um objeto é uma instância de um tipo específico de uma class, subclass ou interface.
+	public int qtdCasas() {
+		int count = 0;
+		for (Imovel imovel: imoveis) {
+			if (imovel instanceof Casa) { 
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public int qtdApartamentos() {
+		int count = 0;
+		for (Imovel imovel: imoveis) {
+			if (imovel instanceof Apartamento) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	public abstract double calculaPrecoVenda();
+	
+	public double imovelDeVendaMaisCara() {
+//		Imovel imovelMaisCaro = null;
+		double maiorPrecoVenda = 0;
+		for (Imovel imovel: imoveis) {
+			if (imovel.calculaPrecoVenda() > maiorPrecoVenda) {
+				maiorPrecoVenda = imovel.calculaPrecoVenda();
+			}
+		}
+		return maiorPrecoVenda;
+	}
+
+////
+////• calcula e retorna o im´ovel de maior pre¸co de venda.
+
+
+}

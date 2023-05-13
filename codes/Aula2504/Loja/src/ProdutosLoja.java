@@ -1,0 +1,47 @@
+
+public class ProdutosLoja {
+	
+	private String nome;
+	private double preco;
+	private String codigo;
+	
+	public ProdutosLoja(String nome, double preco, String codigo) {
+		this.nome = nome;
+		this.preco = preco;
+		this.codigo = codigo;
+	}
+	
+	public void mostra() {
+		System.out.println("Nome: " + nome + "\nPreco: " + preco);
+	}
+	
+	public boolean ehIgual(ProdutosLoja p) {
+		return codigo.equals(p.codigo);
+	}
+	
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
+
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(double preco) {
+		this.preco = preco;
+	}
+	
+}

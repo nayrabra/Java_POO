@@ -1,0 +1,27 @@
+
+public class CDs extends ProdutosLoja{
+
+	private int nFaixas;
+
+	public CDs(String nome, double preco, int nFaixas) {
+		super(nome, preco);
+		this.nFaixas = nFaixas;
+	}
+
+	public int getnFaixas() {
+		return nFaixas;
+	}
+
+	public void setnFaixas(int nFaixas) {
+		this.nFaixas = nFaixas;
+	}
+	
+	@Override
+	public void mostra() {
+		super.mostra();
+		System.out.println("\nNumero de faixas: " + nFaixas);
+	}
+	
+	
+	
+}

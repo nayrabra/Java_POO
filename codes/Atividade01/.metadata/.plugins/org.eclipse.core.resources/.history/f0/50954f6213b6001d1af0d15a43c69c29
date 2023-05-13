@@ -1,0 +1,17 @@
+
+public class Bandas {
+	
+	String nome;
+	String tipo;
+	int integrantes;
+	double lucro;
+	int shows;
+	
+	void mostra() {
+		System.out.println("Nome(s) da(s) banda(s): " + nome);
+		System.out.println("Tipo(s) musical(is): " + tipo);
+		System.out.println("Número de integrante(s): " + integrantes);
+		System.out.println("Quanto de lucro: " + lucro);
+		System.out.println("Número de shows: " + shows);
+	}
+}

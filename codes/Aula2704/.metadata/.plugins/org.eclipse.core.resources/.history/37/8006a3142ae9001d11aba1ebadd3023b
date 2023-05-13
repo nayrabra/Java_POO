@@ -1,0 +1,57 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Pessoa[] vet = new Pessoa[5];
+		vet[0] = new Aluno(20, 2);
+		vet[1] = new Funcionario(33, 5000.00);
+		vet[2] = new Aluno(21, 5);
+		vet[3] = new Funcionario(21, 1500.00);
+		vet[4] = new Aluno(21, 6);
+		
+		int posicaoMaior = 0;
+		int maisLivrosAlugados = 0;
+		int posicaoMenor = 0;
+		double menosLivrosAluguados = Double.MAX_VALUE;
+		
+		for(int i = 0; i < vet.length; i++) {
+			if (vet[i] instanceof Aluno) {
+				Aluno a = (Aluno)vet[i];
+				if (a.getLivrosAlugados() > maisLivrosAlugados) {
+					maisLivrosAlugados = a.getLivrosAlugados();
+					posicaoMaior = i;
+				}
+				if (a.getLivrosAlugados() < menosLivrosAluguados) {
+					menosLivrosAluguados = a.getLivrosAlugados();
+					posicaoMenor = i;
+				}
+			}
+		}
+		
+		System.out.println(maisLivrosAlugados);
+		System.out.println(posicaoMaior);
+		System.out.println(menosLivrosAluguados);
+		System.out.println(posicaoMenor);
+		
+		
+//		int maiorLivrosAlugados = 0; 
+//		int posicaoMaior = -1; //pode ser qqer valor inicial
+//		
+//		//get, algoritmo maior, instanceof
+//		for (int i = 0; i < vet.length; i++) {
+//			if (vet[i] instanceof Aluno) { //primeiro usa o instanceof
+//				Aluno a = (Aluno)vet[i]; //depois o cast
+//				if (a.getLivrosAlugados() > maiorLivrosAlugados) {
+//					maiorLivrosAlugados = a.getLivrosAlugados();
+//					posicaoMaior = i;
+//				}
+//			} 
+//		}
+//		
+//		System.out.println(posicaoMaior);
+//		
+//		
+	}
+
+}

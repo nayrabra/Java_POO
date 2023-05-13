@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/nayrabraga/Desktop/ADS - 2˚ Semestre/POO/AV2/Atv06_Heranca/.metadata/.plugins/org.eclipse.jdt.core
+3198047742.index
+4232423632.index
+1865797976.index

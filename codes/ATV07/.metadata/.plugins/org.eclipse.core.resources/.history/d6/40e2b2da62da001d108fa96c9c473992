@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+			
+		
+		
+		
+		Scanner s = new Scanner (System.in);
+		
+		System.out.println("Informe a quantidade de imóveis que serão cadastrados:");
+		int im = s.nextInt();
+		Imovel [] imoveis = new Imovel [im];
+		for (int i = 0; i < im; i++) {
+			double area = im.nextDouble();
+			int qtdQuartos = im.nextInt();
+			double preco = im.nextDouble();
+			imoveis[i] = new Imovel (area, qtdQuartos, preco);
+		}
+		
+		System.out.println("Informe quantidade de casas: ");
+		int c = s.nextInt();
+		Casa [] casas = new Casa [c];
+		for (int i = 0; i < c; i++) {
+			double area = c.nextDouble();
+			int qtdQuartos = c.nextInt();
+			double preco = c.nextDouble();
+			boolean quintal = c.nextBoolean();
+			casas[i] = new Casa (area, qtdQuartos, preco, quintal);
+		}
+		
+		System.out.println("Informe a quantidade de apartamentos: ");
+		int a = s.nextInt();
+		Apartamento [] apartamentos = new Apartamento [a];
+		for (int i = 0; i < a; i++) {
+			double area = a.nextDouble();
+			int qtdQuartos = a.nextInt();
+			double preco = a.nextDouble();
+			boolean piscina = a.nextBoolean();
+			casas[i] = new Casa (area, qtdQuartos, preco, piscina);
+		}
+		
+		
+		s.close();
+	}
+
+}

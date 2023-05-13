@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("Andar atual: ");
+		int andarAtual = s.nextInt();
+		System.out.println(andarAtual);
+
+		System.out.println("Total de andares: ");
+		int totalDeAndares = s.nextInt();
+		System.out.println(totalDeAndares);
+
+		System.out.println("Capacidade máxima de pessoas: ");
+		int capacidadeMaxima = s.nextInt();
+		System.out.println(capacidadeMaxima);
+
+		System.out.println("Total de pessoas presentes: ");
+		int pessoasPresentes = s.nextInt();
+		System.out.println(pessoasPresentes);
+
+		//entra
+		if (pessoasPresentes < 0) {
+			System.out.println("Não existe pessoas com número negativo, não entra ninguém.");
+		} else if (capacidadeMaxima < 1) {
+			System.out.println("Não existe capacidade com número negativo, não entra ninguém.");
+		} else if (pessoasPresentes > 0 && capacidadeMaxima > 1 && pessoasPresentes < capacidadeMaxima) {
+			pessoasPresentes++;
+			System.out.println("Entrou uma pessoa, agora tem " + pessoasPresentes + " pessoas.");
+		} else if (pessoasPresentes > capacidadeMaxima) {
+			System.out.println("Capacidade ultrapassada, não pode entrar mais ninguém.");
+		}
+
+		//sai
+		if (pessoasPresentes > 0) {
+			pessoasPresentes--;
+			System.out.println("Uma pessoa saiu, restou agora " + pessoasPresentes + " pessoas.");
+		} else {
+			System.out.println("Não existe pessoas com número negativo, não sai ninguém.");
+		}
+
+		//sobe
+
+		if (andarAtual < totalDeAndares) {
+			andarAtual++;
+			System.out.println("Subiu um andar, agora está no andar de número " + andarAtual);
+		} else if (andarAtual < 0 || totalDeAndares < 0) {
+			System.out.println("Andar não existe, não sobe ninguém.");
+		}
+		
+
+		//desce
+		if (andarAtual > 0) {
+			andarAtual--;
+			System.out.println("Descendo um andar, fica no andar de número " + andarAtual);
+		} else {
+			System.out.println("Andar não existe, não desce ninguém.");
+		}
+		
+		//		void mostra {
+		//			System.out.println("Uma pessoa entrou, ficou então com " + pessoasPresentes + " pessoas."); //entra
+		//			System.out.println("Uma pessoa saiu, restou agora " + pessoasPresentes + " pessoas."); //sai
+		//			System.out.println("Subiu um andar, agora está no andar de número " + andarAtual); //sobe
+		//			System.out.println("Descendo um andar, fica no andar de número " + andarAtual); //desce
+		//		}
+	}
+
+}

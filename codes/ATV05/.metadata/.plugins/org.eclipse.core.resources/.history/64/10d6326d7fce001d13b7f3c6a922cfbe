@@ -1,0 +1,17 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Aluno aluno1 = new Aluno("Artur", 1990, 9.2);
+		Turma turma1 = new Turma (aluno1, "ADS");
+		
+//		aluno1.novoAluno("Marcos", 1990, 8.6);
+		Aluno aluno2 = new Aluno("Rangel", 1985, 10);
+		Turma turma2 = new Turma (aluno2, "Eng software");
+		turma2.imprimirTurma();
+		turma2.addAluno(aluno1, "Ads");
+
+	}
+
+}

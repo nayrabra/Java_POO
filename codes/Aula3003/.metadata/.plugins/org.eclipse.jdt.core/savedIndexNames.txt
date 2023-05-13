@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/nayrabraga/Desktop/ADS - 2˚ Semestre/POO/POO - 35CD/Aula3003/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2822447676.index
+572011138.index

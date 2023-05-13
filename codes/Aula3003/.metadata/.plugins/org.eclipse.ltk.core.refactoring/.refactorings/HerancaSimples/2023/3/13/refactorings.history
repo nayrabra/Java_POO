@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;HerancaSimples/src/empregados&apos;&#x0A;- Original project: &apos;HerancaSimples&apos;&#x0A;- Destination element: &apos;HerancaSimples/src/empregados&apos;&#x0A;- Original elements:&#x0A;     Presidente.java&#x0A;     Funcionario.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;empregados" element1="/src&lt;{Presidente.java" element2="/src&lt;{Funcionario.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1680224075979" units="2" version="1.0"/>
+</session>

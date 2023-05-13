@@ -1,0 +1,14 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Funcionario f1 = new Funcionario("Maria", "4534543", 2500);
+		f1.calculaBonus();
+		f1.mostraFuncionario();
+		
+		Presidente p1 = new Presidente("Joao", "778478", 30000, 2);
+		p1.calculaBonus();
+
+	}
+
+}

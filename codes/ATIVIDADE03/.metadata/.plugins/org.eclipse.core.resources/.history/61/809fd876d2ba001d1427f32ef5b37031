@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Andar atual: ");
+		int andarAtual = s.nextInt();
+		System.out.println(andarAtual);
+		
+		System.out.println("Total de andares: ");
+		int totalDeAndares = s.nextInt();
+		System.out.println(totalDeAndares);
+		
+		System.out.println("Capacidade máxima de pessoas: ");
+		int capacidadeMaxima = s.nextInt();
+		System.out.println(capacidadeMaxima);
+		
+		System.out.println("Total de pessoas presentes: ");
+		int pessoasPresentes = s.nextInt();
+		System.out.println(pessoasPresentes);
+		
+		Elevador a = new Elevador(10, 20);
+		Elevador b = new Elevador(18, 30);
+		
+//		int cnt1 = 0;
+//		for (int i = 0; i < n; i++) {
+//			if (prods[i].peso > 10 && prods[i].valor < 50) {
+//				cnt1++;
+//			}			
+//		}
+		
+		int count = 0;
+		for (int i = 0; i < capacidadeMaxima; i++) {
+			return;
+		}
+		
+		System.out.println("acrescimo " + count);
+		
+		
+		//criar metodos acrescentaPessoas, removePessoas, sobeAndar, desceAndar
+		
+//		public int acrescentaPessoa(int pessoasPresentes) {
+//			if (pessoasPresentes < capacidadeMaxima) {
+//				return pessoasPresentes + 1;
+//			}
+//			
+//		}
+//		
+//		
+//		public int removePessoa(int pessoasPresentes) {
+//			if (pessoasPresentes > 0) {
+//				return pessoasPresentes - 1;
+//			}
+//		}
+//		
+//		int acresA = a.getPessoasPresentes() + 1;
+//		a.acrescentaPessoa(acresA);
+//		System.out.println(acresA);
+//		
+//		int acresB = b.getPessoasPresentes() + 1;
+//		
+	}
+
+}

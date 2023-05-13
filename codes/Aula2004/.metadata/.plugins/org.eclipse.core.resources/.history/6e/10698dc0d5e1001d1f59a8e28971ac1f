@@ -1,0 +1,75 @@
+
+public class Conta implements Seguranca {
+	
+	private String cpf;
+	private String senha;
+	private double saldo;
+	
+	//password é a senha q o usuario vai escolher
+	public void sacar(double valor, String password) {
+		if (verificaSenha(password)) {
+			mensagemSucesso();
+			if (valor <= saldo) {
+				saldo = saldo - valor;
+			}
+		} else {
+			mensagemFracasso();
+		}
+	}
+	
+	public void depositar(double valor, String password) { 
+		if (verificaSenha(password)) {
+			mensagemSucesso();
+			saldo = saldo + valor;
+		} else {
+			mensagemFracasso();
+		}
+	}
+	
+//	@Override
+//	public boolean verificaSenha(String password) {
+//		return senha.equals(password); //retorna true ou false
+//	}
+//	
+//	@Override
+//	public void mensagemSucesso() {
+//		System.out.println("Sucessso");
+//	}
+//	@Override
+//	public void mensagemFracasso() {
+//		System.out.println("Falha\nSenha incorreta");
+//	}
+	
+	public Conta(String cpf, String senha, double saldo) {
+		super();
+		this.cpf = cpf;
+		this.senha = senha;
+		this.saldo = saldo;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	
+}

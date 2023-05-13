@@ -1,0 +1,49 @@
+
+public class Elevador {
+	
+	private int andarAtual;
+	private int totalDeAndares;
+	private int capacidadeMaxima;
+	private int pessoasPresentes;
+	
+	public Elevador(int capacidadeMaxDePessoas, int totalDeAndares) {
+		this.capacidadeMaxima = capacidadeMaxima;
+		this.totalDeAndares = totalDeAndares;
+		this.andarAtual = 0;
+		this.pessoasPresentes = 0;
+	}
+
+	public int getAndarAtual() {
+		return andarAtual;
+	}
+
+	public void setAndarAtual(int andarAtual) {
+		this.andarAtual = andarAtual;
+	}
+
+	public int getTotalDeAndares() {
+		return totalDeAndares;
+	}
+
+	public void setTotalDeAndares(int totalDeAndares) {
+		this.totalDeAndares = totalDeAndares;
+	}
+
+	public int getcapacidadeMaxima() {
+		return capacidadeMaxima;
+	}
+
+	public void setcapacidadeMaxima(int capacidadeMaxDePessoas) {
+		this.capacidadeMaxima = capacidadeMaxDePessoas;
+	}
+
+	public int getPessoasPresentes() {
+		return pessoasPresentes;
+	}
+
+	public void setPessoasPresentes(int pessoasPresentes) {
+		this.pessoasPresentes = pessoasPresentes;
+	}
+	
+	
+}

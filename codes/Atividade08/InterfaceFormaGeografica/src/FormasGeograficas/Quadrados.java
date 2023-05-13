@@ -1,0 +1,27 @@
+package FormasGeograficas;
+
+public class Quadrados extends Quadrilateros {
+	
+	private double lado;
+	
+	public Quadrados(double lado) {
+		super(lado, lado, lado, lado);
+		this.lado = lado;
+	}
+	
+	public double getLado() {
+		return lado;
+	}
+
+	public void setLado(double lado) {
+		this.lado = lado;
+	}
+
+	@Override
+	public double calculaArea() {
+		return lado * lado; //ou Math.pow(lado, 2);
+	}
+	
+	
+	
+}
